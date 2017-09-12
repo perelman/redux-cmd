@@ -1,0 +1,35 @@
+{
+  "name": "redux-cmd",
+  "version": "1.0.0",
+  "description": "create actions selectors and reducers",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/perelman/redux-cmd.git"
+  },
+  "author": "perelman yuval",
+  "license": "ISC",
+  "bin": {
+    "redux-cmd": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/perelman/redux-cmd/issues"
+  },
+  "homepage": "https://github.com/perelman/redux-cmd#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "recursive-readdir": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rimraf": "^2.6.2"
+  }
+}
