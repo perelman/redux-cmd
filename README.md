@@ -1,6 +1,6 @@
 ## Installation
 
-yarn global redux-cmd
+yarn global add redux-cmd
 
 ## Usage
 
