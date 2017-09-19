@@ -4,7 +4,6 @@ var program = require('commander');
 var path = require('path');
 var recursive = require("recursive-readdir");
 var _ = require('lodash');
-console.log(process.cwd());
 const filesSuffix = ['constants', 'selectors', 'reducers', 'actions'];
 const handleActions = (file, param, type) => {
     const constText = `SET_${_.snakeCase(param).toUpperCase()}`;
