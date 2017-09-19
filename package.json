@@ -1,6 +1,6 @@
 {
   "name": "redux-cmd",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "create actions selectors and reducers",
   "main": "dist/index.js",
   "scripts": {
